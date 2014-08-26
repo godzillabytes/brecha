@@ -1,6 +1,6 @@
 # brecha
 
-A Clojure library designed to access the bittrex api
+A Clojure library designed to access the bittrex api.
 In case you can donate something in BTC: 1DrupQE2aSSPmDWENDuj1aCgsZcvnq9ymJ
 -=====
 
