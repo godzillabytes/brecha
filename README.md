@@ -1,7 +1,8 @@
 # brecha
 
 A Clojure library designed to access the bittrex api.
-In case you can donate something in BTC: 1DrupQE2aSSPmDWENDuj1aCgsZcvnq9ymJ
+It is still in an early stage and hardly tested at all. If something is not working let me know.
+In case you want to donate something in BTC: 1DrupQE2aSSPmDWENDuj1aCgsZcvnq9ymJ
 -=====
 
 ## Usage
