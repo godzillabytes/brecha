@@ -74,6 +74,3 @@
 
 (m-api/get-open-orders key secret "BTC-LTC")
 
-(m-api/get-order-book key secret "BTC-LTC" "buy")
-
-(m-api/get-order-book key secret "BTC-LTC" "both" 10)

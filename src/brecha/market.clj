@@ -41,7 +41,7 @@
       (query url secret)))
 
   (defn cancel[api-key secret order-id]
-    (let [params (api-key secret query-string [:apikey api-key
+    (let [params (query-string [:apikey api-key
                                                :nonce (tc/to-long (time/now))
                                                :uuid order-id
                                                ])
@@ -53,16 +53,6 @@
                   (concat [:apikey api-key
                            :nonce (tc/to-long (time/now))]
                           (when market [:market market])))
-          url (str base-url "getopenorders" params)]
-      (query url secret)))
-
-
-  (defn get-order-book[api-key secret market type & [depth]]
-    (let [params (query-string
-                  (concat [:apikey api-key
-                           :nonce (tc/to-long (time/now))
-                           :market market
-                           :type type]
-                          (when depth [:depth depth])))
-          url (str base-url "getorderbook" params)]
+          url (str base-url "getopenorders" params)
+          ]
       (query url secret))))

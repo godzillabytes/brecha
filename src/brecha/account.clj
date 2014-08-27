@@ -38,7 +38,7 @@
   (defn get-order [api-key secret order-id]
     (let [params (query-string [:apikey api-key
                                 :nonce (tc/to-long (time/now))
-                                :orderid order-id])
+                                :uuid order-id])
           url (str base-url "getorder" params)]
       (query url secret)))
 
