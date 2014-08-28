@@ -7,7 +7,9 @@ In case you want to donate something in BTC: 1DrupQE2aSSPmDWENDuj1aCgsZcvnq9ymJ
 
 ## Usage
 
-FIXME
+Leiningen
+
+[org.clojars.godzillabytes/brecha "0.1.0"]
 
 ## License
 
