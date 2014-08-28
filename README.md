@@ -1,7 +1,7 @@
 # brecha
 
 A Clojure library designed to access the bittrex api.
-It is still in an early stage and hardly tested at all. If something is not working let me know.
+It is still in an early stage and hardly tested at all. If something is not working let me know. I am NOT affiliated with bittrex. Use at your own risk!
 In case you want to donate something in BTC: 1DrupQE2aSSPmDWENDuj1aCgsZcvnq9ymJ
 -=====
 
