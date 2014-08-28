@@ -6,5 +6,4 @@
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [pandect "0.3.1"]
                  [clj-time "0.6.0"]
-                 [clj-http "0.9.1"]
                  [http-kit "2.1.16"]])
