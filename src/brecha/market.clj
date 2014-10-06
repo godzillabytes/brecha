@@ -10,6 +10,7 @@
   (defn buy-limit [api-key secret market quantity rate]
     (let [params (query-string [:apikey api-key
                                 :nonce (tc/to-long (time/now))
+                                :market market
                                 :quantity quantity
                                 :rate rate])
           url (str base-url "buylimit" params)]
